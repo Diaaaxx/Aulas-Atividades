@@ -1,0 +1,16 @@
+var ano = window.prompt("Digite o ano")
+var salario = window.prompt("Digite o salário")
+var ano1 = (ano =1) 
+var calculodoano1 =  (salario*0.05)
+var resultadoano1 = (+salario + calculodoano1)
+document.write("<br> Se tiver 1 ano de serviço - 5% de aumento, o salário ficará em =  " + resultadoano1)
+
+var ano2 = (ano >=2 && 4 >= ano) 
+var calculodoano2 =  (salario*0.10)
+var resultadoano2 = (+salario + calculodoano2)
+document.write("<br> Se tiver entre 2 e 4 anos de serviço - 10% de aumento, o salário ficará em =  " + resultadoano2)
+
+var ano3 = (ano >=5) 
+var calculodoano3 =  (salario*0.15)
+var resultadoano3 = (+salario + calculodoano3)
+document.write("<br> Se tiver acima de 5 anos de serviço - 15% de aumento, o salário ficará em =  " + resultadoano3)
